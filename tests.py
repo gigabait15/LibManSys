@@ -3,10 +3,7 @@ import os
 import json
 from unittest.mock import patch
 from io import StringIO
-
-from LIBRARY import Library
-from main import Display
-
+from main import Book, Library, Display
 
 class TestLibrarySystem(unittest.TestCase):
 
